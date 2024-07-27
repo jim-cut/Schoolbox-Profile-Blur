@@ -90,7 +90,7 @@ body {
 @font-face {
   font-family: "heading";
   /*src: url('fonts/Jimothy-Graphics.eot?r8e6a9');*/
-  src: url("fonts/Jimothy-Graphics.eot?r8e6a9#iefix") format("embedded-opentype"), url("font/SwanseaBold-D0ox.ttf") format("truetype"), url("fonts/Jimothy-Graphics.woff?r8e6a9") format("woff"), url("fonts/Jimothy-Graphics.svg?r8e6a9#Jimothy-Graphics") format("svg");
+  src: url("fonts/Jimothy-Graphics.eot?r8e6a9#iefix") format("embedded-opentype"), url("SwanseaBold-D0ox.ttf") format("truetype"), url("fonts/Jimothy-Graphics.woff?r8e6a9") format("woff"), url("fonts/Jimothy-Graphics.svg?r8e6a9#Jimothy-Graphics") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
