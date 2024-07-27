@@ -1,0 +1,4 @@
+let injectScript = document.createElement("script");
+injectScript.innerText = 'let viewImageEye = document.createElement("div");let profileImage = document.querySelector("#profile-drop > img:nth-child(1)");let imageBlurred = true;let profileMenu = document.querySelector("#account-content");viewImageEye.classList.add("icon-view");viewImageEye.setAttribute("onclick", "unblurProfile()");document.querySelector("a#profile-drop").appendChild(viewImageEye);function unblurProfile() {if (!imageBlurred) {profileImage.classList.remove("unblur");imageBlurred = true;} else {profileImage.classList.add("unblur");imageBlurred = false;}profileMenu.classList.remove("open");console.log("rqlknvlqkrn");}'
+addEventListener("load", (event) => {document.body.appendChild(injectScript);});
+	

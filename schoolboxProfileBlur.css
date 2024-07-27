@@ -1,0 +1,33 @@
+img[title="View Profile"] {
+  filter: blur(4px) brightness(80%);
+}
+
+a#profile-drop div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  background: var(--off-canvas-background);
+  color: var(--off-canvas-foreground);
+  opacity: 0;
+  padding: 0;
+  z-index: 99999;
+}
+
+a#profile-drop div::before {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  line-height: 2rem;
+}
+
+a#profile-drop:hover div {
+  opacity: 1;
+}
+
+img.unblur {
+  filter: none !important;
+}

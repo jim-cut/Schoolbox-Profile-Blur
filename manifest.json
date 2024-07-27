@@ -1,0 +1,15 @@
+{
+  "name": "Schoolbox profile blur",
+  "description": "Blurs your profile image by default with a handy toggle.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["schoolboxProfileBlur.js"],
+        "css": ["schoolboxProfileBlur.css"],
+        "run_at": "document_start"
+      }
+  ]
+}
