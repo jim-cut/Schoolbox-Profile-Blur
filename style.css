@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:not(body, html) {
+  transition: all 0.2s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #002700;
+  color: #ffffff;
+  font-family: heading, sans-serif;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2rem 1rem;
+  cursor: pointer;
+  font-size: xx-large;
+}
+#logo:hover {
+  transform: scale(105%);
+}
+
+#hero {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle, #0b5015, #000);
+}
+
+.button-row {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.button-row a {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 9px;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  width: 10rem;
+}
+.button-row a:hover {
+  transform: translateY(-5px);
+}
+.button-row a.primary {
+  background: #18C02E;
+  color: #ffffff;
+  margin-right: 30px;
+}
+.button-row a.primary:hover {
+  box-shadow: 0 0 20px #298A2A;
+}
+.button-row a.secondary {
+  border: solid 4px #ffffff;
+  color: #ffffff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.button-row a.secondary:hover {
+  background: #456441;
+}
+.button-row a .icon {
+  filter: invert(100%);
+  display: inline-block;
+  height: 70%;
+}
+
+#features div {
+  height: 70vh;
+}
+#features div:nth-of-type(2) span {
+  color: #fba732;
+}
+
+@font-face {
+  font-family: "heading";
+  /*src: url('fonts/Jimothy-Graphics.eot?r8e6a9');*/
+  src: url("fonts/Jimothy-Graphics.eot?r8e6a9#iefix") format("embedded-opentype"), url("font/SwanseaBold-D0ox.ttf") format("truetype"), url("fonts/Jimothy-Graphics.woff?r8e6a9") format("woff"), url("fonts/Jimothy-Graphics.svg?r8e6a9#Jimothy-Graphics") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}/*# sourceMappingURL=main.css.map */
+
+h3 {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
